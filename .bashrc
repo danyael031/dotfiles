@@ -111,9 +111,15 @@ alias ll='ls -al'
 
 alias g=git
 
+alias open=xdg-open
+
 # Dotfiles control with git
 
 alias dotfiles='git --git-dir=$HOME/.dotfiles/ --work-tree=$HOME'
+
+# Notas
+
+alias pendientes='nvim ~/Documents/pendientes.md'
 
 
 

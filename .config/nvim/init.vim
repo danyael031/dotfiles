@@ -18,6 +18,7 @@ set ts=4 sw=4
 call plug#begin()
 
 Plug 'itchyny/lightline.vim'
+Plug 'fatih/vim-go', { 'do': ':GoUpdateBinaries' }
 
 call plug#end()
 
