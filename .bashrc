@@ -121,7 +121,10 @@ alias dotfiles='git --git-dir=$HOME/.dotfiles/ --work-tree=$HOME'
 
 alias pendientes='nvim ~/Documents/pendientes.md'
 
+# Atajos YouTube-dl
 
+alias yt='youtube-dl --add-metadata -i'
+alias yta='yt -x -f bestaudio/best'
 
 xhost +local:root > /dev/null 2>&1
 
