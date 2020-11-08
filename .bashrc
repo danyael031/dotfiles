@@ -112,6 +112,7 @@ alias ll='ls -al'
 alias g=git
 
 alias open=xdg-open
+alias iclip='xclip -i -selection c'
 
 # Dotfiles control with git
 
@@ -173,7 +174,13 @@ ex ()
 #Agregando Directorio de scripts
 PATH="${PATH}:${HOME}/.scripts:/home/dan/Develop/flutter/bin"
 
-export BROWSER="/usr/bin/chromium"
+export BROWSER="/usr/bin/brave"
 export EDITOR=nvim
 export VISUAL=nvim
                                 
+
+complete -C /usr/bin/terraform terraform
+
+export PATH=$PATH:/home/dan/bin
+
+source '/home/dan/lib/azure-cli/az.completion'
