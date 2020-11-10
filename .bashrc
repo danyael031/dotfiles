@@ -59,7 +59,6 @@ completions=(
 # Add wisely, as too many aliases slow down shell startup.
 aliases=(
   general
-  dan
 )
 
 # Which plugins would you like to load? (plugins can be found in ~/.oh-my-bash/plugins/*)
@@ -85,6 +84,9 @@ source $OSH/oh-my-bash.sh
 # else
 #   export EDITOR='mvim'
 # fi
+export EDITOR='nvim'
+export VISUAL='nvim'
+export BROWSER='/usr/bin/brave'
 
 # Compilation flags
 # export ARCHFLAGS="-arch x86_64"
@@ -98,5 +100,10 @@ source $OSH/oh-my-bash.sh
 # For a full list of active aliases, run `alias`.
 #
 # Example aliases
-# alias bashconfig="mate ~/.bashrc"
+alias bashconfig="nvim ~/.bashrc"
 # alias ohmybash="mate ~/.oh-my-bash"
+
+# Personal aliases
+alias vim='nvim'
+alias open='xdg-open'
+alias dotfiles='/usr/bin/git --git-dir=$HOME/.dotfiles/ --work-tree=$HOME'
