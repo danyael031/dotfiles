@@ -107,3 +107,6 @@ alias bashconfig="nvim ~/.bashrc"
 alias vim='nvim'
 alias open='xdg-open'
 alias dotfiles='/usr/bin/git --git-dir=$HOME/.dotfiles/ --work-tree=$HOME'
+
+# Personal PATH dirs
+export PATH="${PATH}:${HOME}/.scripts/"
