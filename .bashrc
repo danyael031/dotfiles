@@ -106,6 +106,7 @@ alias bashconfig="nvim ~/.bashrc"
 # Personal aliases
 alias vim='nvim'
 alias open='xdg-open'
+alias iclip='xclip -i -selection c'
 alias dotfiles='/usr/bin/git --git-dir=$HOME/.dotfiles/ --work-tree=$HOME'
 
 # Personal PATH dirs
