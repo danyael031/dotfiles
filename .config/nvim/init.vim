@@ -13,7 +13,7 @@ set spelllang=es
 set nu rnu
 
 " Cambiando el tamaño del tabulador
-set ts=2 sw=2
+set ts=2 sw=2 expandtab
 
 call plug#begin()
 
