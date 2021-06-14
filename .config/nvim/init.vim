@@ -15,6 +15,13 @@ set nu rnu
 " Cambiando el tamaño del tabulador
 set ts=2 sw=2 expandtab
 
+" Split direction
+set splitbelow
+set splitright
+
+" Ignorar case
+set ignorecase
+
 call plug#begin()
 
 Plug 'itchyny/lightline.vim'
@@ -25,6 +32,10 @@ Plug 'junegunn/fzf.vim'
 Plug 'pangloss/vim-javascript'
 Plug 'leafgarland/typescript-vim'
 Plug 'peitalin/vim-jsx-typescript'
+Plug 'nvim-lua/popup.nvim'
+Plug 'nvim-lua/plenary.nvim'
+Plug 'nvim-telescope/telescope.nvim'
+Plug 'nvim-telescope/telescope-fzy-native.nvim'
 
 call plug#end()
 
